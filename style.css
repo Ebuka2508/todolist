@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.todo-container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+  height: 200px;
+}
+
+.todo-menu {
+  background-color: maroon;
+  width: 400px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todo-menu h3 {
+  color: white;
+  padding: 20px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.hamburger {
+  margin-top: 5px;
+}
+
+.todo-content {
+  margin: auto;
+  background-color: lawngreen;
+}
+
+.menu-bar {
+  background-color: white;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.plus-circle {
+  height: 70px;
+  width: 70px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-top: 70%;
+  margin-left: 40%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.plus {
+  margin-left: 30%;
+  font-size: 35px;
+  color: white;
+  margin-top: 20px;
+}
+
+.input-add {
+  margin-top: 70%;
+  display: none;
+}
+
+.input-text {
+  width: 300px;
+  height: 70px;
+  border: none;
+}
+
+.btn {
+  width: 60px;
+  height: 70px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+ul {
+  background-color: white;
+  height: 50px;
+  margin-left: 5%;
+  width: 350px;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+li {
+  top: 25%;
+  position: absolute;
+  left: 10%;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-content2 {
+  width: 400px;
+}
+
+.trash {
+  font-size: 25px !important;
+}
+
+i {
+  font-size: 30px;
+  position: absolute;
+  left: 90%;
+  top: 32%;
+  display: none;
+}
+
+input {
+  margin-left: 5px !important;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
