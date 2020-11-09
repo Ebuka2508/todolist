@@ -13,9 +13,6 @@
    MyInputAdd.style.display = "block"
    MyPlusCircle.style.display = "none"
    MyInputBox .value = "";
-
-   
-      
    });
    
    MyBtn.addEventListener("click", function(){
